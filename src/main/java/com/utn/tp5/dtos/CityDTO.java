@@ -1,14 +1,20 @@
 package com.utn.tp5.dtos;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@AllArgsConstructor
 @Getter
 @Setter
-public class CityDTO {
+public class CityDTO extends NameIataDTO {
 	
 	private StateDTO state;
 	
+	public CityDTO(String iata, String name, StateDTO state) {
+		super(iata, name);
+		this.state = state;
+	}
+
+	public CityDTO() {
+		super();
+	}
 }

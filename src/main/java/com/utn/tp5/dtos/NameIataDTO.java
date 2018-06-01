@@ -1,16 +1,24 @@
 package com.utn.tp5.dtos;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@NoArgsConstructor
 @Getter
 @Setter
 abstract public class NameIataDTO {
-	
-	private String iata;
-	
-	private String name;
-	
+
+	protected String iata;
+
+	protected String name;
+
+	public NameIataDTO(String iata, String name) {
+		super();
+		this.iata = iata;
+		this.name = name;
+	}
+
+	public NameIataDTO() {
+		super();
+	}
+
 }
