@@ -12,4 +12,4 @@ target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputF
 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
 .idea/*
-.settings/
+.settings/  
