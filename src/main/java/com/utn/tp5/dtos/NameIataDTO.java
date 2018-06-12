@@ -1,10 +1,12 @@
 package com.utn.tp5.dtos;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@EqualsAndHashCode
 abstract public class NameIataDTO {
 
 	protected String iata;
@@ -20,5 +22,5 @@ abstract public class NameIataDTO {
 	public NameIataDTO() {
 		super();
 	}
-
+	
 }
